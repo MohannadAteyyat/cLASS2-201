@@ -2,7 +2,7 @@ h1 {
     text-align: center;
     color: blueviolet;
 }
-main ul li a {text-decoration: none;
+main article ul li a {text-decoration: none;
     
 color: coral;
 }
@@ -13,24 +13,28 @@ main ul li {
 color: rgb(2, 2, 2);
 margin: 15px;
 }
+
+
 body{background-color: rgb(238, 204, 228);}
 p {color: rgb(196, 112, 17);
 font-size: larger;
 }
 
-.clm img {
-    float:left;
-    width:40%;
-    padding:3px;}
-    .clm img {height: 450px;}
-
-    aside { font-size:larger;font-style:italic;color:blueviolet;float:right;width:18%;}
+ 
+    
     
 h2 {text-align: center;
     color: rgb(212, 27, 135);
 margin: 20px;
 
-
+ 
+    
 }
-    footer{display: inline;
-    float: left;}
+h3 {
+    
+    
+    text-align:end
+}
+footer { height: 50%;
+     float: right;}
+ 
