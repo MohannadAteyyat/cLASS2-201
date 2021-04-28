@@ -180,27 +180,150 @@ alert('My brotherss number is 6 ')*/
 console.log('Who is your favourite student in 201 class' + qus1 )*/
 
 
-let qus1 = prompt('Who is your favourite student in 201 class')
+/*let qus = prompt('Who is your favourite student in 201 class')*/
+let score = 0
+let qus = ['ahmad', 'mohammad', 'kaled', 'hasan', 'hanan', 'husam']
 
-let qus1 = ['ahmad', 'mohammad', 'kaled', 'hasan', 'hanan', 'husam', 'suahib', 'ola', 'reem', 'ro\'a', 'leen', ' rand', 'reham']
+for (let k = 0; k <= 5; k++) {
+    let qus1 = prompt('Who is your favourite student in 201 class')
 
-for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < qus.length; i++) {
 
-    if (qus1 == 'indexe.lengh') {
-        alert('You answered correctly'), console.log('Who is your favourite student in 201 class' + qus1)
-    
-    } 
-    else if (qus1 !== 'indexe.lengh') {
+        if (qus1 == qus[i]) {
+            alert('This is a correct answer')
+            score++
+            k = 6
+            break;
+        } 
+
+    }
+    if (qus1 !== qus[i]) alert('your answer is wrong you have only 6 attemots')
+        break;
+}
+alert('All correct possible answer is: ahmad mohammad khaled hassan hanan husam ')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*switch (qus.toLocaleLowerCase()) {
+    case 'qus[i]': prompt('great you answered croectly')
+
+        break;
+    case '!qus': alert('You\'r answer is wrong')
+    break;
+    default:alert('try again')
+        break;
+}
+
+
+
+
+
+
+
+
+
+
+    }
+}
+
+alert('The corect answers is');
+
+
+/* switch (ansWer) {
+        case qus[i]:
+            alert(' Great You\'r answer is correct')
+
+            break;
+
+        default: alert('Your answer is incorect please try again'),
+            ansWer = prompt('Who is your favourite student in 201 class')
+            break;
+    }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*if (qus[i] == ansWer) {
+    alert(' Great You\'r answer is correct')
+    break;
+
+
+} else (qus[i] !== 'answer'); {
+    alert('Your answer is incorect please try again'),
+    ansWer = prompt('Who is your favourite student in 201 class')
+
+
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*let qus = ['ahmad', 'mohammad', 'kaled', 'hasan', 'hanan', 'husam', 'suahib', 'ola', 'reem', 'ro\'a', 'leen', ' rand', 'reham']
+for (let i = 0; i < qus.length; i++) {
+
+    let qus1 = prompt('Who is your favourite student in 201 class')
+
+    if (qus1 !== qus) {
         alert('You\'r gues is wrong , try again please'), qus1 = prompt('Who is your favourite student in 201 class?')
-    
+
     }
-    else {alert('you\rr answer is wrong')
-    
-    } 
-    
-    
-    
+
+    else (qus1 === qus); {
+        alert('You answered correctly'), console.log('Who is your favourite student in 201 class' + qus1)
     }
+
+
+    else {
+        alert('you\rr answer is wrong')
+
+    }
+
+
+
+}*/
 
 
 /*
@@ -214,5 +337,10 @@ switch (qus1.toLocaleLowerCase()) {
         default:prompt('try again')
             break;
     }
-}
-*/
+}*/
+
+
+
+
+
+
