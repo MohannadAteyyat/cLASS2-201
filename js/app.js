@@ -1,6 +1,6 @@
 ' use strict';
 
-
+/*
 function firstOne(){
 alert('Hello we are going to play a guess game')
 let myOld = Number(prompt('How old I\'m I ?'))
@@ -188,40 +188,155 @@ for (let i = 0; i < 3; i++) {
 console.log('How many brothers I have' + gradYear)
 alert('My brothers number is 6 ')
 }
-fivethOne();
+fivethOne();*/
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
+
+let colors = ['red', 'black', 'green'];
+let flag = false;
+for (let attempt = 1; attempt <= 6; attempt++) {
+    let useranswer = prompt("enter my  color");
+    for (let i = 0; i < colors.length ; i++) {
+        if (useranswer === colors[i]) {
+            alert(useranswer +' correct');
+            flag = true;
+            break;
+        }
+    }
+    
+    if (flag === true) { alert('Adham')
+      break ;
+    }
+}
+/*
+let flag = false;
+let que = ['ahmad', 'mohammad', 'khaled', 'hasan', 'hanan', 'husam'];
+for (let k = 0; k <= 6; k++); {
+    let que1 = prompt('Who is your favourite student in 201 class', 'You have 6 attempts : ahmad, mohammad, khaled, hasan, hanan, husam')
+    for (let i = 0; i < que.length; i++) {
+        if ( que === que1[i]) {
+            alert('This is a correct answer')
+            flag = True;
+
+            break;
+
+        }
+    }
+     if (flag === true) { 
+    break;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*let qus1=prompt('Who is your favourite student in 201 class')
 console.log('Who is your favourite student in 201 class' + qus1 )
+let que1 = prompt('Who is your favourite student in 201 class')
+*/
+/*
 
 
 
-let qus = prompt('Who is your favourite student in 201 class')
-let score = 0
 
-let qus = ['ahmad', 'mohammad', 'khaled', 'hasan', 'hanan', 'husam']
 
-for (let k = 0; k <= 5; k++) {
-    let qus1 = prompt('Who is your favourite student in 201 class')
-    
-    for (let e = 0; e < qus.length; e++) {
-        
-        if (qus1 == qus[i]) {
-            alert('This is a correct answer')
-            score++
-            k = 6
+/*}
+        for (let i = 0; i < que.length; i++) {
+            if (que1 !== que[i]) { alert('This answer is wrong')
+
             break;
-        } 
-        
-    }
-    */
-    
- /*
+            }
+
+
+
+
+            }
+
+            }
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*for ( i = 0; i < que.length; i++) {
+
+
+        if (que1 !== que[i] ) { alert('this is a wrong answer')}
+        j=7;
+        break;
+*/
+
+
+
+
+
+
+
+
+
+/* if (que1 == que[i]) {
+           alert('This is a correct answer')
+           score++
+           k = 6
+           break;
+       }
+       for (let i = 0; i <= que.length; i++) {
+           if (que1 !== que[i]) {
+               alert('This is a wrong answer, please try again')
+               break;
+           }
+           break;
+       }*/
+
+
+
+
+
+
+/*
   if(!qus[i]){
       alert('your answer is wrong')
   }
-            
+
 }
 alert('All correct possible answer is: ahmad mohammad khaled hassan hanan husam ')
 
@@ -368,6 +483,7 @@ switch (qus1.toLocaleLowerCase()) {
     }
 }
 */
+
 
 
 
